@@ -8,6 +8,6 @@ public class AzureResouceController {
 
     @GetMapping("/msg")
     public String getMsg() {
-        return "Hello from Azure";
+        return "Application has been deployed to Azure";
     }
 }
